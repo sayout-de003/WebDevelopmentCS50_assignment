@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+<div id="add_page">
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p | safe }}  
+        <button type="submit">Add Page</button>
+    </form>
+      
+</div>
+{% endblock %}
