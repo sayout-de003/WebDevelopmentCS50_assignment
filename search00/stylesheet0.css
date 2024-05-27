@@ -1,0 +1,64 @@
+.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-item{
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#main-item-google{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#srf{
+    display: flexbox;
+    width: 400px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#sbm{
+    display: flex;
+    position: relative;
+    margin: 0.1%;
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#imagedisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 40%;/
+    
+}
+#imagedisplay img {
+    max-width: 40%;
+    max-height: auto;
+}
+.icon-container {
+    width: 10px;
+    height: auto;
+}
+
+.icon-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This property ensures the image covers the entire container */
+    border-radius: 50%;
+    /* Optional: For a circular shape */
+}
